@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./img/background.jpg);
+    background-size: cover;
+    font-family: 'Squada One', cursive;
+    font-size: 100px;
+}
+
+.chronometer {
+    margin: 200px auto;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#screen {
+    color: lightsteelblue;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+}
+
+.button {
+    margin: 20px;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.start {
+    background-image: url(./img/boton-de-play.svg);
+    background-size: cover;
+}
+
+.reset {
+    background-image: url(./img/repeticion.svg);
+    background-size: cover;
+}
+
+.pause {
+    background-image: url(./img/pausa.svg);
+    background-size: cover;
+}
